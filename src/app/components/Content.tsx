@@ -20,7 +20,7 @@ export default function Content() {
                     <div className="flex-row-centered-responsive padding-top">
                     <p className="big-text white-text">Catch 'Em All!</p>
                     </div>
-                    <div className="flex-row-centered-responsive padding-top">
+                    <div className="flex-row-centered-responsive">
                         <p className="small-text white-text">Explore with Our Interactive Pokedex</p>
                     </div>
                     <MainButton></MainButton>
