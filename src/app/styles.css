@@ -1,0 +1,87 @@
+body {
+    background-color: red;
+}
+
+.pokedex{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.row-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar{
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.button{
+    background-color: white;
+    color: red;
+    font-weight: bold;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.white-text{
+    color: white
+}
+
+.big-text{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.flex-row-centered{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.flex-row-centered-responsive{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media (min-width: 650px) {
+    .flex-row-centered-responsive {
+        justify-content: flex-start;  /* Aligns items to the start */
+    }
+    .flex-row-responsive{
+        display: flex;
+        flex-direction: row;
+    }
+    .pokedex-image {
+        padding-right: 20px
+    }
+}
+
+@media (min-width: 1024px) {
+    .text-responsive {
+        padding-left: 50px;
+    }
+}
+
+.padding-top{
+    padding-top: 10px;
+}
+
+.flex-column-center{
+    padding-top: 150px;
+}
+
+.pokedex-image {
+    width: 200%;  /* Set the width of the image */
+    height: 100%;  /* Set the height of the image */
+  }
+
